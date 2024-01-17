@@ -1,0 +1,207 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&family=Roboto:wght@100;300&display=swap');
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:ital,wght@1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    height:100%;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #121212; /* Dark background color */
+    color: #ffffff; 
+    scroll-behavior: smooth;
+}
+header{
+   
+    height: 15%;
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+}
+header h3{
+    font-size: 2rem;
+    padding: 10px;
+}
+header nav{
+    display:flex;
+    justify-content: right;
+}
+header nav a{
+    text-decoration: none;
+    padding: 0px 20px;
+    margin: 0px 20px;
+    background: #7405f3;
+    color:white;
+    font-size: 1.3rem;
+    border-radius: 10px;
+}
+#section1{
+   
+    height:85%;
+    width:100%;
+    display: flex;
+    justify-content:center;
+}
+
+section .aboutme{
+    padding-top: 20px;
+
+    width:80%;
+    height: 80%;
+    display: flex;
+ 
+    flex-wrap: wrap;
+    
+}
+
+.aboutme .mypicture{
+    height:200px;
+
+
+
+
+}
+
+.aboutme .mypicture img{
+    height:200px;
+    border-radius: 50%;
+    
+}
+.aboutme .abtme-infm{
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:30px;
+
+}
+
+.aboutme .mylinks{
+    padding:20px;
+    display: flex;
+    justify-content: space-around;
+
+
+
+}
+
+.mylinks a{
+    text-decoration: none;
+    padding:10px;
+    font-size: 30px;
+    color:#b87cfb;
+}
+
+.aboutme p{
+
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+
+.aboutme .firsttitle{
+    width:100%;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+
+}
+
+.aboutme .myname{
+    width:100%;
+    font-size: 3rem;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(159, 159, 252);
+    
+
+  
+   
+
+  
+    animation: typing 1s ease;
+    transition: all 1s ease ;
+  
+    
+ 
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; 
+        transition: all 1s ease ;
+            zoom: calc(110%);
+            }
+}
+.aboutme .myprofessional{
+    width:80%;
+    display: flex;
+    justify-content: right;
+    font-size: 1.3rem;
+
+    
+
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.aboutme .abt-p{
+    font-size: 1.3rem;
+    text-indent: 30px;
+    text-align: justify;
+    line-height: 1.5;
+ 
+
+}
+
+
+
+
+@media (max-width:800px) {
+    #section1{
+        
+        
+    }
+    .aboutme .mypicture{
+        width:100%;
+        display: flex;
+        
+        justify-content: center;
+        justify-items: center;
+        
+    }
+    #section1 .aboutme{
+        width: 100%;
+        margin: 0px;
+        padding: 10px;
+    }
+    .aboutme p{
+        padding: 10px;
+    }
+    .aboutme .mylinks{
+        width: 90%;
+
+    }
+
+    .mylinks a{
+        font-size: 2.4rem;
+    }
+
+
+    header nav{
+        display:none;
+    }
+    
+}
